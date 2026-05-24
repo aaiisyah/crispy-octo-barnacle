@@ -15,6 +15,9 @@ public class Driver {
 		counter.decrement();
 		
 		System.out.println("Current count:" + counter.getCount());
+
+		int unusedVariable = 99; 
+        String unusedText = "hello";
 		
 	}
 
